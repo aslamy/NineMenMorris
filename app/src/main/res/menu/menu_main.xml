@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.benjamin.ninemenmorris.MainActivity">
+
+    <item
+        android:id="@+id/action_new_game"
+        android:orderInCategory="98"
+        android:title="@string/action_new_game"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save_game"
+        android:orderInCategory="99"
+        android:title="@string/action_save_game"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_load_game"
+        android:orderInCategory="100"
+        android:title="@string/action_load_game"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_close_game"
+        android:orderInCategory="101"
+        android:title="@string/action_close_game"
+        app:showAsAction="never" />
+
+
+
+</menu>
